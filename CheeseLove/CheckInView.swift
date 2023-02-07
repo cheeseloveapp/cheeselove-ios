@@ -10,8 +10,16 @@ import SwiftUI
 struct CheckInView: View {
     var body: some View {
         NavigationStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                .navigationTitle("Check In")
+            ZStack {
+                Color("CheeseLoveYellow")
+                VStack {
+                    Text("Coming Soon")
+                }
+                .font(Font.custom("Finlandica-Regular", size: 14))
+
+            }
+            .navigationTitle("Check In")
+            .ignoresSafeArea()
 
         }
     }

@@ -10,6 +10,8 @@
 		8B2CC4DD2991A04500B032B6 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CC4DC2991A04500B032B6 /* DiscoverView.swift */; };
 		8B2CC4DF2991A06500B032B6 /* MyCheesesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CC4DE2991A06500B032B6 /* MyCheesesView.swift */; };
 		8BA027F02992F64000137E43 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA027EF2992F64000137E43 /* CheckInView.swift */; };
+		8BA027F32992F7A300137E43 /* Calistoga-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA027F22992F7A300137E43 /* Calistoga-Regular.ttf */; };
+		8BA027F62992F98000137E43 /* Finlandica-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA027F52992F98000137E43 /* Finlandica-VariableFont_wght.ttf */; };
 		8BF6A7A9298E513D00C713E4 /* CheeseLoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6A7A8298E513D00C713E4 /* CheeseLoveApp.swift */; };
 		8BF6A7AB298E513D00C713E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6A7AA298E513D00C713E4 /* ContentView.swift */; };
 		8BF6A7AD298E514000C713E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF6A7AC298E514000C713E4 /* Assets.xcassets */; };
@@ -40,6 +42,9 @@
 		8B2CC4DC2991A04500B032B6 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		8B2CC4DE2991A06500B032B6 /* MyCheesesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCheesesView.swift; sourceTree = "<group>"; };
 		8BA027EF2992F64000137E43 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		8BA027F22992F7A300137E43 /* Calistoga-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calistoga-Regular.ttf"; sourceTree = "<group>"; };
+		8BA027F42992F89400137E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8BA027F52992F98000137E43 /* Finlandica-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Finlandica-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		8BF6A7A5298E513D00C713E4 /* CheeseLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheeseLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF6A7A8298E513D00C713E4 /* CheeseLoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseLoveApp.swift; sourceTree = "<group>"; };
 		8BF6A7AA298E513D00C713E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BA027F12992F78700137E43 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8BA027F52992F98000137E43 /* Finlandica-VariableFont_wght.ttf */,
+				8BA027F22992F7A300137E43 /* Calistoga-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		8BF6A79C298E513D00C713E4 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +114,8 @@
 		8BF6A7A7298E513D00C713E4 /* CheeseLove */ = {
 			isa = PBXGroup;
 			children = (
+				8BA027F42992F89400137E43 /* Info.plist */,
+				8BA027F12992F78700137E43 /* Fonts */,
 				8BF6A7A8298E513D00C713E4 /* CheeseLoveApp.swift */,
 				8BF6A7AA298E513D00C713E4 /* ContentView.swift */,
 				8BF6A7AC298E514000C713E4 /* Assets.xcassets */,
@@ -240,7 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA027F62992F98000137E43 /* Finlandica-VariableFont_wght.ttf in Resources */,
 				8BF6A7B0298E514000C713E4 /* Preview Assets.xcassets in Resources */,
+				8BA027F32992F7A300137E43 /* Calistoga-Regular.ttf in Resources */,
 				8BF6A7AD298E514000C713E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,11 +450,11 @@
 				DEVELOPMENT_TEAM = 74FURVRQ79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheeseLove/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cheese Love";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,11 +481,11 @@
 				DEVELOPMENT_TEAM = 74FURVRQ79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheeseLove/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cheese Love";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

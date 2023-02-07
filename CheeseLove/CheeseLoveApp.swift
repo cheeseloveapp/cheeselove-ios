@@ -11,13 +11,11 @@ import SwiftUI
 struct CheeseLoveApp: App {
     init() {
         let attrs = [
-            NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 24)!
+            NSAttributedString.Key.font: UIFont(name: "Calistoga-Regular", size: 24)!
         ]
 
         UINavigationBar.appearance().titleTextAttributes = attrs
         UINavigationBar.appearance().largeTitleTextAttributes = attrs
-
-
     }
 
     var body: some Scene {

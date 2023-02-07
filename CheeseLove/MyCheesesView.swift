@@ -15,6 +15,8 @@ struct MyCheesesView: View {
                 VStack {
                     Text("Coming Soon")
                 }
+                .font(Font.custom("Finlandica-Regular", size: 14))
+
             }
             .navigationTitle("My Cheeses")
             .ignoresSafeArea()

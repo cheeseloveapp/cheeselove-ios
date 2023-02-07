@@ -24,6 +24,8 @@ struct DiscoverView: View {
             .navigationTitle("Discover")
             .scrollContentBackground(.hidden)
             .background(Color("CheeseLoveYellow"))
+            .font(Font.custom("Finlandica-Regular", size: 14))
+            
             
         }
     }
