@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct DiscoverView: View {
-    
     var body: some View {
         NavigationStack {
             List {
@@ -23,7 +22,9 @@ struct DiscoverView: View {
                 Text("Roquefort")
             }
             .navigationTitle("Discover")
-
+            .scrollContentBackground(.hidden)
+            .background(Color("CheeseLoveYellow"))
+            
         }
     }
 }

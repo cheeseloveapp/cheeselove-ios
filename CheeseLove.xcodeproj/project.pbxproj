@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B2CC4DD2991A04500B032B6 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CC4DC2991A04500B032B6 /* DiscoverView.swift */; };
 		8B2CC4DF2991A06500B032B6 /* MyCheesesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CC4DE2991A06500B032B6 /* MyCheesesView.swift */; };
+		8BA027F02992F64000137E43 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA027EF2992F64000137E43 /* CheckInView.swift */; };
 		8BF6A7A9298E513D00C713E4 /* CheeseLoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6A7A8298E513D00C713E4 /* CheeseLoveApp.swift */; };
 		8BF6A7AB298E513D00C713E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6A7AA298E513D00C713E4 /* ContentView.swift */; };
 		8BF6A7AD298E514000C713E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF6A7AC298E514000C713E4 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		8B2CC4DC2991A04500B032B6 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		8B2CC4DE2991A06500B032B6 /* MyCheesesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCheesesView.swift; sourceTree = "<group>"; };
+		8BA027EF2992F64000137E43 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
 		8BF6A7A5298E513D00C713E4 /* CheeseLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheeseLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF6A7A8298E513D00C713E4 /* CheeseLoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseLoveApp.swift; sourceTree = "<group>"; };
 		8BF6A7AA298E513D00C713E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				8BF6A7AE298E514000C713E4 /* Preview Content */,
 				8B2CC4DC2991A04500B032B6 /* DiscoverView.swift */,
 				8B2CC4DE2991A06500B032B6 /* MyCheesesView.swift */,
+				8BA027EF2992F64000137E43 /* CheckInView.swift */,
 			);
 			path = CheeseLove;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				8B2CC4DF2991A06500B032B6 /* MyCheesesView.swift in Sources */,
 				8BF6A7AB298E513D00C713E4 /* ContentView.swift in Sources */,
+				8BA027F02992F64000137E43 /* CheckInView.swift in Sources */,
 				8BF6A7A9298E513D00C713E4 /* CheeseLoveApp.swift in Sources */,
 				8B2CC4DD2991A04500B032B6 /* DiscoverView.swift in Sources */,
 			);

@@ -10,8 +10,15 @@ import SwiftUI
 struct MyCheesesView: View {
     var body: some View {
         NavigationStack {
-            Text("Remember cheeses here")
-                .navigationTitle("My Cheeses")
+            ZStack {
+                Color("CheeseLoveYellow")
+                VStack {
+                    Text("Coming Soon")
+                }
+            }
+            .navigationTitle("My Cheeses")
+            .ignoresSafeArea()
+
         }
     }
 }
